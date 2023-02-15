@@ -12,6 +12,8 @@
     "dev": {
       "cache": false,
       "persistent": true
-    }
-  }
+    },
+    "clean": {}
+  },
+  "globalEnv": ["TODO_TEST_TOKEN"]
 }
