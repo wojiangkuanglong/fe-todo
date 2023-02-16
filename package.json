@@ -11,10 +11,13 @@
     "dev": "dotenv -e .env.development.local turbo dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "clean": "turbo run clean && rm -rf node_modules"
+    "clean": "turbo run clean && rm -rf node_modules **/*/node_modules"
   },
   "devDependencies": {
     "eslint-config-custom": "workspace:*",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-config-standard-with-typescript": "^34.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "prettier": "latest",
     "turbo": "latest"
   },
