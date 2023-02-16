@@ -13,7 +13,9 @@
       "cache": false,
       "persistent": true
     },
-    "clean": {}
+    "clean": {
+      "cache": false
+    }
   },
-  "globalEnv": ["TODO_TEST_TOKEN"]
+  "globalEnv": ["TEST_TOKEN"]
 }

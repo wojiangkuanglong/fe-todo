@@ -4,7 +4,7 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-  console.log(import.meta.env, process.env.TEST_TOKEN)
+  console.log(import.meta.env, process.env.TEST_TOKEN);
   return (
     <div className="App">
       <div>
